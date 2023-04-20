@@ -31,6 +31,7 @@ export class AppComponent {
   }   */ 
     makeTypedRequest() : void
   {
+    alert("ciao");
     this.oServiceResponse = this.http.get<Team[]>(this.serviceURL);
     this.oServiceResponse.subscribe(d => {this.teams = d;});
   }    
