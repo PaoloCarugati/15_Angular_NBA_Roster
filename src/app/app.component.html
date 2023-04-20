@@ -1,8 +1,7 @@
-<h1>LISTA TEAM</h1>
+<h1>NBA Roster</h1>
+<!--<hr />-->
+<button (click)="sortByConferenceAndDivision()">Ordina per Conference/Division</button>
+<br />
 <div>
-  <ul>
-      <li *ngFor="let team of teams" >
-        <app-componente-squadra [team] = "team" > </app-componente-squadra>
-      </li>
-  </ul>
-
+      <app-team *ngFor="let t of teams" [team]="t"></app-team>
+</div>

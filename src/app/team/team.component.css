@@ -1,0 +1,32 @@
+.header {
+    font-weight: bold;
+}
+
+.team-fullname {
+    background-color: crimson;
+    color: white;
+}
+
+.atlantic {
+    background-color: green !important;
+}
+
+.central {
+    background-color: orangered !important;
+}
+
+.southeast {
+    background-color: blue !important;
+}
+
+.northwest {
+    background-color: fuchsia !important;
+}
+
+.pacific {
+    background-color: blueviolet !important;
+}
+
+.southwest {
+    background-color: black !important;
+}
